@@ -1,0 +1,41 @@
+.input {
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid rgb(201, 195, 195);
+  margin-top: 15px;
+  /* box-shadow: 10px 10px 20px gray; */
+  border-radius: 5px;
+  outline: none;
+}
+.input-message {
+  height: 115px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid rgb(201, 195, 195);
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.input:hover {
+  border: 2px solid cyan;
+}
+.input-message:hover {
+  border: 2px solid cyan;
+}
+.submit-btn {
+  width: 50%;
+  background-color: #f91944;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 26px;
+  transition: 0.9s;
+  border: none;
+  outline: none;
+}
+.submit-btn:hover {
+  color: white;
+  background-color: rgb(58, 58, 245);
+  border: none;
+}

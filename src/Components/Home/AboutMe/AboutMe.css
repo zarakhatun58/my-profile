@@ -1,0 +1,53 @@
+.profile-pic img {
+  width: 320px;
+  padding: 10px 10px 0px 0px;
+  border-top: 2px solid rgb(194, 190, 190);
+  border-right: 2px solid rgb(194, 190, 190);
+  /* border-bottom: 2px solid rgb(194, 190, 190); */
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+@media screen and (max-width: 467px) {
+  .profile-pic img {
+    width: 200px;
+    margin: auto;
+    /* margin-right: 50px; */
+  }
+}
+
+.about-me {
+  width: 60%;
+  margin: auto;
+  /* border: 1px solid red;
+  background-image: url("../../Images/bg.jpg"); */
+  /* border-radius: 5px; */
+  padding: 20px;
+  margin-top: 50px;
+}
+.about {
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+  font-family: "Volkhov", serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.about-title {
+  font-family: "Volkhov", serif;
+
+  color: #f91944;
+}
+.about-p {
+  font-family: "Volkhov", serif;
+  padding: 20px;
+}
+#image {
+  border-radius: 20px;
+}
+.first-section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* display:inline-flex */
+}
