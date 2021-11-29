@@ -5,7 +5,6 @@ import Contact from "./Components/Home/Contact/Contact";
 function App() {
   return (
     <div className="App">
-      <Home></Home>
       <Router>
         <Switch>
           <Route exact path="/">

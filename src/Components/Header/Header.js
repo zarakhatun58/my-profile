@@ -79,7 +79,7 @@ const Header = () => {
             <button className="my-resume">
               <a
                 className="resume-download"
-                href="https://drive.google.com/file/d/1tCs5NtEBMeVc63oAHw4_PqlcAeQfNFTj/view?fbclid=IwAR0qpbE20JqZQS1SG-huBSIOlyQYDE5clVRya14MIf43w1ITfaQhYI_IndY"
+                href="https://drive.google.com/file/d/1xxI9KHLMoaIA9zuZuovDywhrVhACfGfu/view"
                 download
               >
                 Resume Download

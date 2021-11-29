@@ -4,13 +4,12 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div>
-      <div
-        className="container mt-5 "
-        style={{ backgroundColor: "rgb(70, 104, 8)" }}
-      >
+      <div className="container mt-5 ">
         <div className="text-center w-70 m-auto">
-          <h2 className="font text-danger">Contact Me</h2>
-          <form>
+          <h2 className="font" style={{ color: " rgb(70, 104, 8)" }}>
+            Contact Me
+          </h2>
+          <form style={{ backgroundColor: "lightcoral" }}>
             <input
               className="w-75 input"
               type="text"

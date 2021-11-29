@@ -25,7 +25,8 @@
 }
 .submit-btn {
   width: 50%;
-  background-color: #f91944;
+  /* background-color: #f91944; */
+  background-color: rgb(24, 53, 24);
   color: white;
   font-size: 18px;
   font-weight: 500;
@@ -36,6 +37,7 @@
 }
 .submit-btn:hover {
   color: white;
-  background-color: rgb(58, 58, 245);
+  background-color: rgb(4, 4, 43);
   border: none;
+  color: white;
 }

@@ -5,17 +5,17 @@ const MyServices = () => {
   return (
     <div>
       <div className="container mt-5 ">
-        <h1 className="text-center font pt-5"> Chose I Provide</h1>
-        <div className="services ">
+        <h1 className="text-center font pt-5"> Choose I Provide</h1>
+        <div className="services">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6 col-lg-4 col-sm-12">
               <div className="service test">
                 <div>
                   <div>
-                    <img src="web" alt="" />
+                    <img src="https://i.ibb.co/7kN1NNx/Mern.png" alt="" />
                   </div>
                   <h3>Web Designing</h3>
-                  <p className="paragrap">
+                  <p className="paragraph">
                     I am expert in web designing. I can add functionality
                     besides designing a webpage. I use HTML, CSS, Bootstrap,
                     Vanilla Js, React JS for it. You can see some of my works
@@ -27,7 +27,11 @@ const MyServices = () => {
             <div className="col-md-6 col-lg-4 col-sm-12">
               <div className="service ">
                 <div>
-                  <img className="mern-image " src="mern" alt="" />
+                  <img
+                    className="mern-image "
+                    src="https://i.ibb.co/GQ8DQ5V/new-mern.jpg"
+                    alt=""
+                  />
                   <h3>MERN Stack Developer</h3>
                   <p className="paragrap">
                     I am a MERN stack web developer. I use MongoDB for database
@@ -41,7 +45,7 @@ const MyServices = () => {
               <div className="service">
                 <div>
                   <div>
-                    <img src="html" alt="" />
+                    <img src="https://i.ibb.co/DrhMrzg/psd.png" alt="" />
                   </div>
                   <h3>PSD To HTML</h3>
                   <p className="paragraph">
