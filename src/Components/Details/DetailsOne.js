@@ -8,8 +8,8 @@ import purchaseItem from "./../../images/purchaseItem.png";
 const DetailsOne = () => {
   return (
     <div>
-      <div className="row mt-2 carousel-area">
-        <div className="col-md-5 col-lg-5 col-sm-5">
+      <div className="row mt-2 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
+        <div className="col mt-3">
           <ProjectsCarousel
             home={contact}
             about={explore}
@@ -17,7 +17,7 @@ const DetailsOne = () => {
             add={purchaseItem}
           ></ProjectsCarousel>
         </div>
-        <div className="col-md-7 col-lg-7 col-sm-7">
+        <div className="col mt-3">
           <h3 className="project-title">Maruti SuZuki Arena Website</h3>
           <p className="project-description">
             This is an Full-Stack Maruti Suzuki Cars website.User can Select

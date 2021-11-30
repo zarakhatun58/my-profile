@@ -66,7 +66,11 @@ const About = () => {
             </div>
             <div className="col-md-6 mt-5">
               <div className="profile-pic mt-5 mb-5">
-                <img src="https://i.ibb.co/QjJZ2sv/pic1.jpg" alt="" />
+                <img
+                  src="https://i.ibb.co/QjJZ2sv/pic1.jpg"
+                  alt=""
+                  style={{ borderRadius: "50%" }}
+                />
               </div>
               <div style={{ width: "350px", margin: "50px" }}>
                 <h1 className="title about-name">I'M JAHANARA KHATUN</h1>

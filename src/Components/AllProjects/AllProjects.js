@@ -25,7 +25,7 @@ const AllProjects = () => {
 
             <Card.Body>
               <Link to="/detailsOne">
-                <button className="btn btn-success">More</button>
+                <button className="btn btn-success">Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -44,7 +44,7 @@ const AllProjects = () => {
 
             <Card.Body>
               <Link to="/detailsTwo">
-                <button className="btn btn-success">More</button>
+                <button className="btn btn-success">Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -65,7 +65,7 @@ const AllProjects = () => {
 
             <Card.Body>
               <Link to="/detailsThree">
-                <button className="btn btn-success">More</button>
+                <button className="btn btn-success">Details</button>
               </Link>
             </Card.Body>
           </Card>
@@ -84,7 +84,7 @@ const AllProjects = () => {
 
             <Card.Body>
               <Link to="/detailsFour">
-                <button className="btn btn-success">More</button>
+                <button className="btn btn-success"> Details</button>
               </Link>
             </Card.Body>
           </Card>

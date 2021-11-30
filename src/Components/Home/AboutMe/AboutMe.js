@@ -21,8 +21,8 @@ const AboutMe = () => {
             <br /> KHATUN
           </h1>
           <h4 style={{ color: " rgb(70, 104, 8)" }}>
-            "Web Developer", <br />
-            "Programmer",
+            "Junior Web Developer", <br />
+            "Fronted Developer",
             <br />
             "React Developer",
             <br />
@@ -84,7 +84,12 @@ const AboutMe = () => {
         </div>
         <div className="">
           <div className="profile-pic">
-            <img id="image" src="https://i.ibb.co/QjJZ2sv/pic1.jpg" alt="" />
+            <img
+              id="image"
+              src="https://i.ibb.co/QjJZ2sv/pic1.jpg"
+              alt=""
+              style={{ borderRadius: "50%" }}
+            />
           </div>
           <dev>
             <button className="btn btn-success mt-3 mx-2">Hire Me</button>

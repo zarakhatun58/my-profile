@@ -13,6 +13,7 @@ import DetailsOne from "./Components/Details/DetailsOne";
 import DetailsTwo from "./Components/Details/DetailsTwo";
 import DetailsThree from "./Components/Details/DetailsThree";
 import DetailsFour from "./Components/Details/DetailsFour";
+import About from "./Components/About/About";
 function App() {
   return (
     <div className="App">
@@ -55,6 +56,9 @@ function App() {
 
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="about">
+            <About></About>
           </Route>
         </Switch>
         <Footer></Footer>

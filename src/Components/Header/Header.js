@@ -72,6 +72,17 @@ const Header = () => {
             </Link>
           </Nav.Item>
           <Nav.Item>
+            <Link
+              exact
+              to="/about"
+              activeClassName="active"
+              className="nav-links menu-name"
+              onClick={handleClick}
+            >
+              Skills
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
             <button className="my-resume">
               <a
                 className="resume-download"
