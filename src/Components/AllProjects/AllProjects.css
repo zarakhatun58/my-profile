@@ -1,0 +1,25 @@
+.containerDetails {
+  margin-right: 100px;
+  margin-left: 100px;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.cardDetail {
+  /* border: 1px solid gray; */
+  border: none;
+  border-radius: 30px;
+  margin-left: 10px;
+  box-shadow: 10px 10px 20px gray;
+}
+.title {
+  color: crimson;
+}
+h2 {
+  color: darkgreen;
+  margin-top: 50px;
+}
+.card img {
+  border-radius: 10%;
+}

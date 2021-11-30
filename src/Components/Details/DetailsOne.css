@@ -1,0 +1,75 @@
+.carousel img {
+  width: 100%;
+  height: 300px;
+}
+.carousel-area {
+  /* border: 1px solid red; */
+  padding: 10px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  border: 1px solid gray;
+  transition: 0.8s;
+  margin-bottom: 50px;
+}
+.carousel-area:hover {
+  box-shadow: 20px 20px 40px rgb(20, 12, 12);
+  border: 1px solid rgb(241, 0, 0);
+
+  /* border: none; */
+}
+.project-button {
+  margin-top: 10px;
+  transition: 0.9s;
+  margin-right: 10px;
+  background-color: darkgreen;
+}
+.project-button a {
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+.project-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.project-title {
+  color: #f91944;
+
+  font-size: 26px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-description {
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(2, 16, 138);
+  font-family: "Poppins", sans-serif;
+}
+
+.project-detailsP {
+  font-weight: 100;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.more-projects-btn button {
+  background-color: #f91944;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.more-projects-btn button:hover {
+  background-color: #e73f61;
+  color: white;
+}
+
+.technology {
+  font-family: "Poppins", sans-serif;
+  /* color: #e73f61; */
+  /* color: cyan; */
+  color: red;
+  font-weight: 500;
+  /* font-size: 20px; */
+}

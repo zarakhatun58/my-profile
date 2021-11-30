@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Nav } from "react-bootstrap";
 import "./Header.css";
 import icon1 from "./../../images/icon-1.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [click, setClick] = useState(false);
@@ -13,67 +14,62 @@ const Header = () => {
         <img alt="" src={icon1} className="icon" />
       </div>
 
-      <div className="head">
+      <div className="head header_nav_link">
         <Nav className="justify-content-end" activeKey="/home">
           <Nav.Item>
-            <Nav.Link
+            <Link
               exact
               to="/"
               activeClassName="active"
-              className="heade nav-links"
+              className="head nav-links menu-name"
               onClick={handleClick}
-              className="menu-name"
             >
               Home
-            </Nav.Link>
+            </Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link
+            <Link
               exact
-              to="/projects"
+              to="/allProjects"
               activeClassName="active"
-              className="nav-links"
+              className="nav-links menu-name"
               onClick={handleClick}
-              className="menu-name"
             >
-              Portfolio
-            </Nav.Link>
+              Projects
+            </Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link
+            <Link
               exact
               to="/blogs"
               activeClassName="active"
-              className="nav-links"
+              className="nav-links menu-name"
               onClick={handleClick}
-              className="menu-name"
             >
               Blog
-            </Nav.Link>
+            </Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link
+            <Link
               exact
-              to="/about"
+              to="/aboutMe"
               activeClassName="active"
-              className="nav-links"
+              className="nav-links menu-name"
               onClick={handleClick}
-              className="menu-name"
             >
               About Me
-            </Nav.Link>
+            </Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link
+            <Link
               exact
               to="/contact"
               activeClassName="active"
-              className="nav-links"
+              className="nav-links menu-name"
               onClick={handleClick}
-              className="menu-name"
             >
               Contact
-            </Nav.Link>
+            </Link>
           </Nav.Item>
           <Nav.Item>
             <button className="my-resume">

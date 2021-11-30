@@ -15,7 +15,7 @@ const AboutMe = () => {
     <>
       <div className="d-flex justify-content-space-between align-items-center">
         <div className="m-5 p-5">
-          <h1 className="about-title font">
+          <h1 className="about-title font ">
             <span style={{ color: " rgb(70, 104, 8)" }}> HI !</span> <br /> I'M
             JAHANARA
             <br /> KHATUN

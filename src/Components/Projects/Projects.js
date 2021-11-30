@@ -11,12 +11,22 @@ import booking from "./../../images/booking.png";
 import home3 from "./../../images/home3.png";
 import service3 from "./../../images/service3.png";
 import helpline from "./../../images/helpline.png";
+import home4 from "./../../images/home4.png";
+import service4 from "./../../images/service4.png";
+import product from "./../../images/product.png";
+import "./Projects.css";
 
 const Projects = () => {
   return (
     <div>
       <div className="container w-75">
-        <h1 className="text-center mt-5 mb-5"> My Recent Projects </h1>
+        <h1
+          className="text-center mt-5 mb-5"
+          style={{ color: " rgb(70, 104, 8)" }}
+        >
+          {" "}
+          My All Projects Details{" "}
+        </h1>
         <div className="row mt-2 carousel-area">
           <div className="col-md-5 col-lg-5 col-sm-5">
             <ProjectsCarousel
@@ -187,12 +197,12 @@ const Projects = () => {
 
         <div className="row mt-2 carousel-area">
           <div className="col-md-5 col-lg-5 col-sm-5">
-            {/* <ProjectsCarousel
-              home={travelGuruHome}
-              about={travelGuruLogin}
-              manage={travelGuruMap}
-              add={travelGuruSearch}
-            ></ProjectsCarousel> */}
+            <ProjectsCarousel
+              home={home4}
+              about={service4}
+              manage={service4}
+              add={product}
+            ></ProjectsCarousel>
           </div>
           <div
             className="col-md-7 col-lg-7 col-sm-7"

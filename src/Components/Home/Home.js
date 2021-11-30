@@ -2,24 +2,20 @@ import React from "react";
 
 import About from "./../About/About";
 import AboutMe from "./AboutMe/AboutMe";
-import Contact from "./Contact/Contact";
-import Footer from "./../Footer/Footer";
 import MyServices from "./../MyServices/MyServices";
-import Header from "./../Header/Header";
 import Projects from "./../Projects/Projects";
+import Contact from "./Contact/Contact";
 
 const Home = () => {
   return (
     <div>
-      <Header></Header>
       <AboutMe></AboutMe>
 
-      <div className="my-services">
+      <div className="">
         <MyServices></MyServices>
         <Projects></Projects>
         <About> </About>
         <Contact></Contact>
-        <Footer></Footer>
       </div>
     </div>
   );
