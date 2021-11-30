@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="footer d-flex align-items-center justify-content-center">
+    <div className="footer ">
       <div className="text-center">
         <p>
           <small>Copyright © 2021 | Jahanara Khatun</small>
