@@ -13,8 +13,8 @@ import {
 const AboutMe = () => {
   return (
     <>
-      <div className="row mt-2 ">
-        <div className="m-5 p-5 col-md-6 col-lg-6 col-sm-12 col">
+      <div className="row mt-5 ">
+        <div className=" col-md-5 col-lg-5 col-sm-5">
           <h1 className="about-title font ">
             <span style={{ color: " rgb(70, 104, 8)" }}> HI !</span> <br /> I'M
             JAHANARA
@@ -82,7 +82,7 @@ const AboutMe = () => {
             </a>
           </button>
         </div>
-        <div className=" col-md-6 col-lg-6 col-sm-12 col">
+        <div className=" col-md-6 col-lg-6 col-sm-12 col ">
           <div className="profile-pic">
             <img
               id="image"

@@ -8,7 +8,7 @@ import purchaseItem from "./../../images/purchaseItem.png";
 const DetailsOne = () => {
   return (
     <div>
-      <div className="2row mt-2 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-">
+      <div className="row mt-2 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2">
         <div className="col mt-3">
           <ProjectsCarousel
             home={contact}

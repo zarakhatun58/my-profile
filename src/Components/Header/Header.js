@@ -1,93 +1,84 @@
-import React, { useState } from "react";
-import { Nav } from "react-bootstrap";
-import "./Header.css";
+import { useState } from "react";
+import { Nav, Navbar, Container } from "react-bootstrap";
 import icon1 from "./../../images/icon-1.png";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Header = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
   return (
-    <div className="header">
-      <div>
-        <img alt="" src={icon1} className="icon" />
-      </div>
-
-      <div className="head header_nav_link">
-        <Nav className="justify-content-end" activeKey="/home">
-          <Nav.Item>
-            <Link
-              exact
-              to="/"
-              activeClassName="active"
-              className="head nav-links menu-name"
-              onClick={handleClick}
-            >
-              Home
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link
-              exact
-              to="/allProjects"
-              activeClassName="active"
-              className="nav-links menu-name"
-              onClick={handleClick}
-            >
-              Projects
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link
-              exact
-              to="/blogs"
-              activeClassName="active"
-              className="nav-links menu-name"
-              onClick={handleClick}
-            >
-              Blog
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link
-              exact
-              to="/aboutMe"
-              activeClassName="active"
-              className="nav-links menu-name"
-              onClick={handleClick}
-            >
-              About Me
-            </Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Link
-              exact
-              to="/contact"
-              activeClassName="active"
-              className="nav-links menu-name"
-              onClick={handleClick}
-            >
-              Contact
-            </Link>
-          </Nav.Item>
-
-          <Nav.Item>
-            <button className="my-resume">
-              <a
-                className="resume-download"
-                href="https://drive.google.com/file/d/1xxI9KHLMoaIA9zuZuovDywhrVhACfGfu/view"
-                download
+    <div>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="">
+            {" "}
+            <img alt="" src={icon1} style={{ width: "60px" }} />
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="me-auto">
+              <Link
+                exact
+                to="/"
+                activeClassName="active"
+                className="links  menu-name"
+                onClick={handleClick}
               >
-                Resume Download
-              </a>
-            </button>
-          </Nav.Item>
-          <div className="nav-icon " onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-          </div>
-        </Nav>
-      </div>
+                Home
+              </Link>
+            </Nav>
+            <Nav>
+              <Link
+                exact
+                to="/allProjects"
+                activeClassName="active"
+                className="links menu-name"
+                onClick={handleClick}
+              >
+                Projects
+              </Link>
+              <Link
+                exact
+                to="/blogs"
+                activeClassName="active"
+                className="links menu-name"
+                onClick={handleClick}
+              >
+                Blog
+              </Link>
+              <Link
+                exact
+                to="/aboutMe"
+                activeClassName="active"
+                className="links menu-name"
+                onClick={handleClick}
+              >
+                About Me
+              </Link>
+              <Link
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="links menu-name"
+                onClick={handleClick}
+              >
+                Contact
+              </Link>
+              <button className="my-resume">
+                <a
+                  className="resume-download"
+                  href="https://drive.google.com/file/d/1xxI9KHLMoaIA9zuZuovDywhrVhACfGfu/view"
+                  download
+                >
+                  Resume Download
+                </a>
+              </button>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 };

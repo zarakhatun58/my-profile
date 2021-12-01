@@ -7,9 +7,9 @@ const AllProjects = () => {
   return (
     <>
       <h2> All Recent Projects</h2>
-      <div className="containerDetails">
-        <div style={{}}>
-          <Card style={{ width: "30rem" }} className="cardDetail">
+      <div className="row mt-2 containerDetails">
+        <div style={{}} className="col-md-6 col-lg-6 col-sm-12 mt-3 ">
+          <Card style={{ width: "25rem" }} className="cardDetail">
             <Card.Img
               variant="top"
               src="https://i.ibb.co/yg2ZdRw/explore.png"
@@ -30,11 +30,11 @@ const AllProjects = () => {
             </Card.Body>
           </Card>
         </div>
-        <div>
-          <Card style={{ width: "30rem" }} className="cardDetail">
+        <div className="col-md-6 col-lg-6 col-sm-12 mt-3">
+          <Card style={{ width: "25rem" }} className="cardDetail">
             <Card.Img variant="top" src="https://i.ibb.co/XxMz4ZW/home.png" />
             <Card.Body>
-              <Card.Title className="title">Tourista Travel </Card.Title>
+              <Card.Title className="title">Tourista Travel Agency </Card.Title>
               <Card.Text>
                 This is Tourista Travel service Agency, where anyone can Book
                 Tourist Place and historical place and start their journey and
@@ -50,9 +50,9 @@ const AllProjects = () => {
           </Card>
         </div>
       </div>
-      <div className="containerDetails">
-        <div style={{}}>
-          <Card style={{ width: "30rem" }} className="cardDetail">
+      <div className="row mt-2 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 containerDetails">
+        <div style={{}} className="col mt-3">
+          <Card style={{ width: "25rem" }} className="cardDetail">
             <Card.Img variant="top" src="https://i.ibb.co/MMShttX/home4.png" />
             <Card.Body>
               <Card.Title className="title">Our Code Education</Card.Title>
@@ -70,8 +70,8 @@ const AllProjects = () => {
             </Card.Body>
           </Card>
         </div>
-        <div>
-          <Card style={{ width: "30rem" }} className="cardDetail">
+        <div className="col mt-3">
+          <Card style={{ width: "25rem" }} className="cardDetail">
             <Card.Img variant="top" src="https://i.ibb.co/pRxWbVg/home3.png" />
             <Card.Body>
               <Card.Title className="title">Medical-Health-Care </Card.Title>

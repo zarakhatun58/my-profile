@@ -64,7 +64,7 @@ const About = () => {
                 <p className="skills-btn">MS Office</p>
               </div>
             </div>
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 col-sm-8 col-lg-6 mt-5">
               <div className="profile-pic mt-5 mb-5">
                 <img
                   src="https://i.ibb.co/QjJZ2sv/pic1.jpg"

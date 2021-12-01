@@ -1,10 +1,10 @@
 .containerDetails {
   margin-right: 100px;
   margin-left: 100px;
-  display: flex;
+  /* display: flex; */
   margin-bottom: 50px;
   margin-top: 50px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .cardDetail {
   /* border: 1px solid gray; */

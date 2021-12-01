@@ -1,98 +1,93 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Nav } from "react-bootstrap";
+import "./Header.css";
 import icon1 from "./../../images/icon-1.png";
-import "./Navbar.css";
-
+import { Link } from "react-router-dom";
+import "./Header.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
   return (
-    <div>
-      <nav className="navbar">
-        <div className="nav-container ">
-          <NavLink exact to="/" className="nav-logo text-left">
-            <img
-              className="myLogo"
-              style={{ width: "60px" }}
-              src={icon1}
-              alt=""
-            />
-          </NavLink>
+    <div className="header">
+      <div>
+        <img alt="" src={icon1} className="icon" />
+      </div>
 
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
+      <div className="head header_nav_link">
+        <Nav className="justify-content-end" activeKey="/home">
+          <Nav.Item>
+            <Link
+              exact
+              to="/"
+              activeClassName="active"
+              className="head nav-links menu-name"
+              onClick={handleClick}
+            >
+              Home
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link
+              exact
+              to="/allProjects"
+              activeClassName="active"
+              className="nav-links menu-name"
+              onClick={handleClick}
+            >
+              Projects
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link
+              exact
+              to="/blogs"
+              activeClassName="active"
+              className="nav-links menu-name"
+              onClick={handleClick}
+            >
+              Blog
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link
+              exact
+              to="/aboutMe"
+              activeClassName="active"
+              className="nav-links menu-name"
+              onClick={handleClick}
+            >
+              About Me
+            </Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Link
+              exact
+              to="/contact"
+              activeClassName="active"
+              className="nav-links menu-name"
+              onClick={handleClick}
+            >
+              Contact
+            </Link>
+          </Nav.Item>
+
+          <Nav.Item>
+            <button className="my-resume">
+              <a
+                className="resume-download"
+                href="https://drive.google.com/file/d/1xxI9KHLMoaIA9zuZuovDywhrVhACfGfu/view"
+                download
               >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/projects"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Portfolio
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                About Me
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/blogs"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Blog
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Contact Us
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <button className="my-resume">
-                <a
-                  className="resume-download"
-                  href="https://drive.google.com/file/d/1xxI9KHLMoaIA9zuZuovDywhrVhACfGfu/view"
-                  download
-                >
-                  Download Resume
-                </a>
-              </button>
-            </li>
-          </ul>
+                Resume Download
+              </a>
+            </button>
+          </Nav.Item>
           <div className="nav-icon " onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
-        </div>
-      </nav>
+        </Nav>
+      </div>
     </div>
   );
 };

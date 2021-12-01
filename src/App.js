@@ -14,11 +14,13 @@ import DetailsTwo from "./Components/Details/DetailsTwo";
 import DetailsThree from "./Components/Details/DetailsThree";
 import DetailsFour from "./Components/Details/DetailsFour";
 import About from "./Components/About/About";
+import { Navbar } from "react-bootstrap";
 function App() {
   return (
     <div className="App">
       <Router>
         <Header></Header>
+        {/* <Navbar></Navbar> */}
         <Switch>
           <Route exact path="/">
             <Home />
