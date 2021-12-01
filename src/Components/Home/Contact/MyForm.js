@@ -55,7 +55,10 @@ const MyForm = () => {
 
   return (
     <div>
-      <form onSubmit={handleFormSubmit} style={{ backgroundColor: "coral" }}>
+      <form
+        onSubmit={handleFormSubmit}
+        style={{ backgroundColor: "rgb(5, 68, 68)" }}
+      >
         <div className="form-floating mb-3 form-group">
           <input
             placeholder="Your Name "
@@ -105,7 +108,7 @@ const MyForm = () => {
           ></textarea>
           <label className="text-secondary">Your message</label>
         </div>
-        <button className="btn btn-success rounded-pill" type="submit">
+        <button className="btn btn-danger rounded-pill" type="submit">
           <FontAwesomeIcon icon={faPaperPlane} /> Send
         </button>
       </form>

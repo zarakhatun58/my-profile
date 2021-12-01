@@ -32,7 +32,7 @@ const AboutMe = () => {
             I am an enthusiastic JavaScript developer <br /> with knowing some
             framework for the <br /> frontend and the backend. I know Basic{" "}
             <br />
-            PHP and MySQL but basically a MERN developer.
+            PHP but basically a MERN developer.
           </p>
           <button className="icon-button">
             <a

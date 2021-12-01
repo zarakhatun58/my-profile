@@ -23,15 +23,17 @@
   .my-description {
     width: 85%;
   }
-  .paragraph {
-    width: 400px;
-    margin: auto;
-    /* color: black; */
-  }
 }
+/* .paragraph {
+  width: 400px;
+  margin: auto;
+  color: black;
+} */
+
 .title {
   font-size: 38px;
-  color: rgb(70, 104, 8);
+  /* color: rgb(70, 104, 8); */
+  color: #f91944;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }

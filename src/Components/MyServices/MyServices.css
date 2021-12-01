@@ -1,11 +1,11 @@
 .service {
   /* border: 1px solid red; */
   padding: 30px;
-  width: 300px;
+  width: 350px;
   height: 400px;
   text-align: justify;
   box-shadow: 10px 10px 20px gray;
-  /* margin-left: 50px; */
+  margin-left: 50px;
   border-radius: 10px;
   margin: auto;
   margin-top: 70px;
@@ -17,7 +17,7 @@
   }
 }
 .services {
-  /* width: 85%; */
+  width: 85%;
   margin: auto;
 }
 .service img {
@@ -28,11 +28,17 @@
   width: 100%;
   padding: 0;
 }
-/* .my-services {
+.my-services {
   background-color: white;
   margin-top: 50px;
-} */
+}
 .service:hover {
   margin-top: 20px;
   border: 1px solid cyan;
+}
+h3 {
+  color: crimson;
+}
+h1 {
+  color: rgb(38, 134, 9);
 }
