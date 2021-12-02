@@ -9,7 +9,13 @@ const AllProjects = () => {
 
       <div class="row row-cols-1 row-cols-md-3 g-4 mb-3 mx-auto">
         <div class="col">
-          <div class="card cardDetail" style={{ width: "20rem" }}>
+          <div
+            class="card cardDetail"
+            style={{ width: "20rem" }}
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <img
               src="https://i.ibb.co/yg2ZdRw/explore.png"
               class="card-img-top"
@@ -31,7 +37,13 @@ const AllProjects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card cardDetail" style={{ width: "20rem" }}>
+          <div
+            class="card cardDetail"
+            style={{ width: "20rem" }}
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             <img
               src="https://i.ibb.co/XxMz4ZW/home.png"
               class="card-img-top"
@@ -51,7 +63,14 @@ const AllProjects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card cardDetail" style={{ width: "20rem" }}>
+          <div
+            class="card cardDetail"
+            style={{ width: "20rem" }}
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             <img
               class="card-img-top"
               src="https://i.ibb.co/MMShttX/home4.png"
@@ -72,7 +91,11 @@ const AllProjects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card cardDetail" style={{ width: "20rem" }}>
+          <div
+            class="card cardDetail"
+            style={{ width: "20rem" }}
+            data-aos="fade-down-right"
+          >
             <img
               src="https://i.ibb.co/pRxWbVg/home3.png"
               class="card-img-top"

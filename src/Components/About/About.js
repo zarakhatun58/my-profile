@@ -1,4 +1,5 @@
 import React from "react";
+import { Typewriter } from "react-simple-typewriter";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -64,9 +65,9 @@ const About = () => {
             </div>
           </div>
           <div className="col-md-6  mt-5">
-            <div className="profile-pic mt-5 mb-5">
+            <div className="profile-pic mt-5 mb-5" data-aos="flip-right">
               <img
-                src="https://i.ibb.co/QjJZ2sv/pic1.jpg"
+                src="https://i.ibb.co/c6Tc1JC/my-pic.jpg"
                 alt=""
                 style={{ borderRadius: "50%" }}
               />
@@ -74,7 +75,15 @@ const About = () => {
             <div style={{ width: "100%" }}>
               <h1 className="title">
                 I'M <br />
-                JAHANARA KHATUN
+                <Typewriter
+                  words={[" JAHANARA", "KHATUN"]}
+                  loop={5}
+                  cursor
+                  cursorStyle="|"
+                  typeSpeed={10}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
               </h1>
               <p className="my-description">
                 I am an enthusiastic JavaScript developer with knowing some

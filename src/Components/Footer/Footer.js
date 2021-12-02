@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="footer ">
+    <div className="footer pt-4">
       <div className="text-center">
         <p>
           <small>Copyright © 2021 | Jahanara Khatun</small>
