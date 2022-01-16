@@ -118,7 +118,7 @@ const AboutMe = () => {
             <button className="btn btn-success mt-3 resume-download">
               <a
                 className="text-light"
-                href="https://drive.google.com/file/d/1xxI9KHLMoaIA9zuZuovDywhrVhACfGfu/view"
+                href="https://docs.google.com/document/d/1_KYwWiVKAGlW8UBbWzonfbafR3myiIueCc9EQdud0qM/view"
                 download
               >
                 Download Resume
