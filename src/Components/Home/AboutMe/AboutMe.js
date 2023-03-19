@@ -111,6 +111,7 @@ const AboutMe = () => {
               src="https://i.ibb.co/c6Tc1JC/my-pic.jpg"
               alt=""
               style={{ borderRadius: "50%" }}
+              draggable="false"
             />
           </div>
           <dev data-aos="zoom-out-up">
