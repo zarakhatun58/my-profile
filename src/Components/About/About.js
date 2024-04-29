@@ -24,8 +24,10 @@ const About = () => {
 
             <div className="row">
               <p className="skills-btn">React Js</p>
+              <p className="skills-btn">Next Js</p>
               <p className="skills-btn">React Router</p>
               <p className="skills-btn">React Bootstrap</p>
+              <p className="skills-btn">Ionic</p>
               <p className="skills-btn">Material UI</p>
               <p className="skills-btn">HTML5</p>
               <p className="skills-btn">CSS3</p>
@@ -98,7 +100,7 @@ const About = () => {
                 <a
                   className="icon-button "
                   target="blank"
-                  href="https://www.linkedin.com/in/jahanara-khatun-5623821b0/"
+                  href="https://www.linkedin.com/in/er-jahanara/"
                 >
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
