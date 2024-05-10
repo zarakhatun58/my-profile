@@ -32,10 +32,11 @@ const AboutMe = () => {
           <h4 style={{ color: " rgb(70, 104, 8)" }}>
             <Typewriter
               words={[
-                "Junior Web Developer",
+                "Web Developer",
                 "Fronted Developer",
                 "React Developer",
                 "JavaScript Developer",
+                "MERN Developer",
               ]}
               loop={5}
               cursor
@@ -119,7 +120,7 @@ const AboutMe = () => {
             <button className="btn btn-success mt-3 resume-download">
               <a
                 className="text-light"
-                href="https://docs.google.com/document/d/1_KYwWiVKAGlW8UBbWzonfbafR3myiIueCc9EQdud0qM/view"
+                href="https://drive.google.com/file/d/1e6pFzgUEHVzS9nBioqCd_QfcZJIzaQ_P/view"
                 download
               >
                 Download Resume

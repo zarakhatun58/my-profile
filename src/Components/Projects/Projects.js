@@ -14,6 +14,15 @@ import helpline from "./../../images/helpline.png";
 import home4 from "./../../images/home4.png";
 import service4 from "./../../images/service4.png";
 import product from "./../../images/product.png";
+import account from "./../../images/doral/filter.jpeg";
+import cawh from "./../../images/doral/cawh.jpeg";
+import order2 from "./../../images/doral/filter.jpeg";
+import purchaseItem2 from "./../../images/doral/yourst.jpeg";
+import account4 from "./../../images/cureBridge/curehome.jpeg";
+import cawh4 from "./../../images/cureBridge/cutii.jpeg";
+import order4 from "./../../images/cureBridge/docto.jpeg";
+import purchaseItem4 from "./../../images/cureBridge/allParts.jpeg";
+
 import "./Projects.css";
 
 const Projects = () => {
@@ -27,6 +36,102 @@ const Projects = () => {
           {" "}
           My All Projects Details{" "}
         </h1>
+        <div className="row mt-2 carousel-area">
+          <div className="col-md-5 col-lg-5 col-sm-5">
+            <ProjectsCarousel
+              home={account}
+              about={cawh}
+              manage={order2}
+              add={purchaseItem2}
+            ></ProjectsCarousel>
+          </div>
+          <div className="col-md-7 col-lg-7 col-sm-7">
+            <h3 className="project-title">Doral Health Wellness</h3>
+            <p className="project-description">
+              This is an Full-Stack Doral Health Wellness website.User can
+              Select Appointment and Book also can Complete payment via Online
+              payment.
+            </p>
+            <div className="project-detailsP">
+              <li>Have admin and user different dashboard.</li>
+              <li> Admin can delete, add, manage services.</li>
+              <li> Admin can Make Admin also</li>
+              <li>User can Login via (Google Sign-in,Email & Password) </li>
+              <li>
+                <strong className="technology">Front-end technology:</strong>{" "}
+                React js, Ionic,Next js ,React-Router-Dom, Firebase
+                Authentication,Stripe,
+              </li>
+              <li>
+                <strong className="technology">Back-end technology:</strong>{" "}
+                Node js, Heroku,SQL, MySQL, GraphQl, Nest js, Nuxt js, cosmoDb
+              </li>
+            </div>
+          </div>
+          <div className="text-center w-100 m-auto">
+            <button className="btn btn-info project-button">
+              <a target="blank" href="https://dev.roadlcare.com/">
+                Live Preview
+              </a>
+            </button>
+            {/* <button className="btn btn-info ml-5 project-button">
+              <a
+                target="blank"
+                href="https://github.com/zarakhatun58/suzuki-arena-client-side"
+              >
+                Source Code
+              </a>
+            </button> */}
+          </div>
+        </div>
+        <div className="row mt-2 carousel-area">
+          <div className="col-md-5 col-lg-5 col-sm-5">
+            <ProjectsCarousel
+              home={account4}
+              about={cawh4}
+              manage={order4}
+              add={purchaseItem4}
+            ></ProjectsCarousel>
+          </div>
+          <div className="col-md-7 col-lg-7 col-sm-7">
+            <h3 className="project-title">Cure Bridge Wellness</h3>
+            <p className="project-description">
+              This is an Full-Stack Cure Bridge Wellness website.User can Select
+              Appointment and Book also can Complete payment via Online payment.
+            </p>
+            <div className="project-detailsP">
+              <li>Have admin and user different dashboard.</li>
+              <li> Admin can delete, add, manage services.</li>
+              <li> Admin can Make Admin also</li>
+              <li>User can Login via (Google Sign-in,Email & Password) </li>
+              <li>
+                <strong className="technology">Front-end technology:</strong>{" "}
+                React js, Ionic,Next js ,React-Router-Dom, Firebase
+                Authentication,Stripe,
+              </li>
+              <li>
+                <strong className="technology">Back-end technology:</strong>{" "}
+                Node js, Heroku,SQL, MySQL, GraphQl, Nest js, Nuxt js, cosmoDb
+              </li>
+            </div>
+          </div>
+          <div className="text-center w-100 m-auto">
+            <button className="btn btn-info project-button">
+              <a target="blank" href="https://curebridge.in/">
+                Live Preview
+              </a>
+            </button>
+            {/* <button className="btn btn-info ml-5 project-button">
+              <a
+                target="blank"
+                href="https://github.com/zarakhatun58/suzuki-arena-client-side"
+              >
+                Source Code
+              </a>
+            </button> */}
+          </div>
+        </div>
+
         <div className="row mt-2 carousel-area">
           <div className="col-md-5 col-lg-5 col-sm-5">
             <ProjectsCarousel

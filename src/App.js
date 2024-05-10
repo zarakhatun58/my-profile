@@ -14,6 +14,8 @@ import DetailsTwo from "./Components/Details/DetailsTwo";
 import DetailsThree from "./Components/Details/DetailsThree";
 import DetailsFour from "./Components/Details/DetailsFour";
 import About from "./Components/About/About";
+import DoralHealth from "./Components/Details/DoralHealth.js";
+import CureBridge from "./Components/Details/CureBridge.js";
 function App() {
   return (
     <div className="App">
@@ -56,10 +58,16 @@ function App() {
           </Route>
 
           <Route path="/contact">
-            <Contact></Contact>
+            <Contact/>
           </Route>
-          <Route path="about">
-            <About></About>
+          <Route path="/about">
+            <About/>
+          </Route>
+          <Route path="/doralHealth">
+            <DoralHealth/>
+          </Route>
+          <Route path="/cureBridge">
+            <CureBridge/>
           </Route>
         </Switch>
         <Footer></Footer>

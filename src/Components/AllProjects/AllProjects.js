@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./AllProjects.css";
+import doralImg from "../../images/doral/signup.jpeg";
+import cureImg from "../../images/cureBridge/curehome.jpeg";
 
 const AllProjects = () => {
   return (
@@ -8,6 +10,78 @@ const AllProjects = () => {
       <h2> All Recent Projects</h2>
 
       <div class="row row-cols-1 row-cols-md-3 g-4 mb-3 mx-auto">
+        <div class="col">
+          <div
+            class="card cardDetail"
+            style={{ width: "20rem" }}
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <img src={doralImg} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title title">Doral Health Care</h5>
+              <p class="card-text">
+                {" "}
+                This is an Full-Stack Doral Health Care website.User can take
+                Appointment and Book Seat also can Complete payment via Online
+                payment.
+              </p>
+
+              <Link to="/doralHealth">
+                <button className="btn btn-success">Details</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card cardDetail"
+            style={{ width: "20rem" }}
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <img src={cureImg} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title title">CureBridge Health </h5>
+              <p class="card-text">
+                {" "}
+                This is an Full-Stack Doral Health Care website.User can take
+                Appointment and Book Seat also can Complete payment via Online
+                payment.
+              </p>
+
+              <Link to="/cureBridge">
+                <button className="btn btn-success">Details</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div
+            class="card cardDetail"
+            style={{ width: "20rem" }}
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            <img src={cureImg} class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title title">CureBridge Health </h5>
+              <p class="card-text">
+                {" "}
+                This is an Full-Stack Doral Health Care website.User can take
+                Appointment and Book Seat also can Complete payment via Online
+                payment.
+              </p>
+
+              <Link to="/cureBridge">
+                <button className="btn btn-success">Details</button>
+              </Link>
+            </div>
+          </div>
+        </div>
         <div class="col">
           <div
             class="card cardDetail"

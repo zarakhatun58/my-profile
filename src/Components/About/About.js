@@ -24,7 +24,7 @@ const About = () => {
 
             <div className="row">
               <p className="skills-btn">React Js</p>
-              <p className="skills-btn">React Router</p>
+              <p className="skills-btn">Ionic</p>
               <p className="skills-btn">React Bootstrap</p>
               <p className="skills-btn">Material UI</p>
               <p className="skills-btn">HTML5</p>
@@ -38,17 +38,24 @@ const About = () => {
               <p className="skills-btn">Redux</p>
               <p className="skills-btn">Node</p>
               <p className="skills-btn">MongoDB</p>
+              <p className="skills-btn">Share Point</p>
+              <p className="skills-btn">Microsoft Graph Api</p>
             </div>
             <li className="text-left mt-3 mb-2 skills">Familiar:</li>
             <div className="row">
               <p className="skills-btn">Firebase</p>
               <p className="skills-btn">Express js</p>
               <p className="skills-btn">Tailwind</p>
+              <p className="skills-btn">Next js</p>
+              <p className="skills-btn">jquery</p>
+              <p className="skills-btn">PHP</p>
             </div>
             <li className="text-left mt-3 mb-2 skills">Extra Skills:</li>
             <div className="row">
               <p className="skills-btn">MS-Office</p>
               <p className="skills-btn">Adobe Photo shop</p>
+              <p className="skills-btn">Adobe XD</p>
+              <p className="skills-btn">Figma</p>
             </div>
             <li className="text-left mt-3 mb-2 skills">Tools:</li>
             <div className="row">
@@ -61,7 +68,7 @@ const About = () => {
               <p className="skills-btn">Firebase</p>
 
               <p className="skills-btn">Netlify</p>
-              <p className="skills-btn">MS Office</p>
+              <p className="skills-btn">Vercel</p>
             </div>
           </div>
           <div className="col-md-6  mt-5">
