@@ -39,6 +39,7 @@ const About = () => {
               <p className="skills-btn">Redux</p>
               <p className="skills-btn">Node</p>
               <p className="skills-btn">MongoDB</p>
+              <p className="skills-btn">MySql</p>
               <p className="skills-btn">Share Point</p>
               <p className="skills-btn">Microsoft Graph Api</p>
             </div>
@@ -61,15 +62,16 @@ const About = () => {
             <li className="text-left mt-3 mb-2 skills">Tools:</li>
             <div className="row">
               <p className="skills-btn">Git</p>
-
+              <p className="skills-btn">CI/CD</p>
               <p className="skills-btn">VS Code</p>
               <p className="skills-btn">Code Blocks</p>
               <p className="skills-btn">Chrome Dev Tool</p>
               <p className="skills-btn">Heroku</p>
               <p className="skills-btn">Firebase</p>
-
+              <p className="skills-btn">C-Panel</p>
               <p className="skills-btn">Netlify</p>
               <p className="skills-btn">Vercel</p>
+              <p className="skills-btn">Render</p>
             </div>
           </div>
           <div className="col-md-6  mt-5">
@@ -159,7 +161,7 @@ const About = () => {
                 <small>( Kolkata,West Bengal,India )</small>
               </h5>
 
-              <p>2014</p>
+              <h4 >2014</h4>
             </div>
           </div>
         </div>

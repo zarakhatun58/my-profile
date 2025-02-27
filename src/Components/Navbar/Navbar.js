@@ -76,7 +76,7 @@ const Navbar = () => {
             <button className="my-resume">
               <a
                 className="resume-download"
-                href="https://drive.google.com/file/d/1xxI9KHLMoaIA9zuZuovDywhrVhACfGfu/view"
+                href="https://drive.google.com/file/d/1uG6A-TQWS36dE2LzmpaPkaUMvPG9zg09/view"
                 download
               >
                 Resume Download
